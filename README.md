@@ -16,3 +16,10 @@ Some notes of solutions for installing problems
 
 ## error: invalid command 'bdist_wheel'
 	  pip install --user wheel
+
+# sshfs
+## mount
+	sudo sshfs -o allow_other,defer_permissions leonliu@eldar-1.cs.utexas.edu:/u/leonliu/repos  ~/eldar-1/
+	
+## unmount 
+	sudo umount ~/eldar-1
