@@ -40,3 +40,7 @@ Some notes of solutions for installing problems
 	        results.sort() # sort
         	return results
 
+# pip
+## set specific pip.config
+
+        export PIP_CONFIG_FILE=...
